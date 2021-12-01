@@ -1,0 +1,21 @@
+#logo{
+    margin:0 auto;
+}
+
+body{
+    background-color: rgba(32, 32, 32, 0.075);
+}
+
+#Form{
+    padding: 100px;
+}
+
+#Pri{
+    padding: 150px;
+    
+    margin:0 auto;
+}
+
+#bt1{
+    margin:0 auto ;
+}

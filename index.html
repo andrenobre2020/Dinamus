@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="shortcut icon" href="https://dinamus.org/wp-content/themes/dinamus/imagens/logotipo-preto.svg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Dinamus São Mateus </title>
+</head>
+<body>
+    <nav class="navbar fixed-top navbar-dark bg-dark " id="Menu">
+        <div class="container-fluid">
+          <a class="navbar-brand" id="logo" href="#">
+            <img src="https://dinamus.org/wp-content/themes/dinamus/imagens/logotipo-dinamus.svg" alt="" width="110" height="90" class="d-inline-block align-text-top">
+          </a>
+        </div>
+      </nav>
+      <div class="container">
+        <h1>Cadastro dos Novos Membros </h1>
+      </div>
+      <main>
+
+
+        <form  class="row g-4" id="Form" action="/cadastrado" method="post">
+          <div class="row g-3">
+            <div class="col">
+              <input type="text" name="Nome" class="form-control" placeholder="Nome" aria-label="First name">
+            </div>
+            <div class="col">
+              <input type="text" name="sobrenome" class="form-control" placeholder="Ultimo Nome" aria-label="Last name">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <label for="inputEmail4" class="form-label">Email</label>
+            <input type="email" name="email" class="form-control" id="inputEmail4">
+          </div>
+          <div class="col-md-6">
+            <label for="inputnumber" class="form-label">Telefone</label>
+            <input type="number" name="telefone" placeholder="ex:1199999-9999" class="form-control" id="inputNumber">
+          </div>
+          <div class="col-12">
+            <label for="inputAddress" class="form-label">Endereço </label>
+            <input type="text" name="endereço" class="form-control" id="inputAddress" placeholder="Endereço">
+          </div>
+          <div class="col-md-6">
+            <label for="inputCity" class="form-label">N°</label>
+            <input type="number" name="casa" placeholder="numero da casa" class="form-control" id="inputCity">
+          </div>
+          <div class="col-md-4">
+            <label name='igreja' for="inputState" class="form-label">Igreja</label>
+            <select name="igreja" id="inputState" class="form-select">
+              <option selected>De qual Dinamus você faz parte ?</option>
+              <option>Dínamus São Mateus</option>
+              <option>Dínamus São Bernardo do Campo</option>
+              <option> Dinamus São Paulo</option>
+              <option>Dínamus Goiânia</option>
+              <option>Dínamus Alphaville</option>
+              <option>Dínamus Santo André</option>
+              <option>Dínamus Lauzane</option>
+            </select>
+          </div>
+      
+          <div class="col-12">
+            <button type="submit" class="btn btn-primary">Cadastrar</button>
+          </div>
+        </form>
+
+
+
+
+    
+
+      </main>
+</body>
+</html>
